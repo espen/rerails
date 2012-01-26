@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
 
   s.files = Dir["CHANGELOG.rdoc", "README.rdoc", "lib/**/*"]
 
-  s.add_dependency "rails", "= 2.3.5"
+  s.add_dependency "rails", "<3"
 
   s.has_rdoc = true
   s.extra_rdoc_files = %w(CHANGELOG.rdoc README.rdoc)
